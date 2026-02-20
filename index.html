@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sadra's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Loader -->
+    <div id="loader">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Scroll progress -->
+    <div id="progress"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a href="#home" class="logo">
+            <img src="/assets/imgl-one.png" alt="Sadra Logo">
+        </a>
+        <ul>
+            <li><a href="#home"> Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button id="themeBtn"></button>
+        <button id="menuBtn" class="menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+
+    <!-- Mobile menu -->
+    <div id="mobileMenu" class="mobile-menu"></div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <img src="assets/icone/p1.png" alt="Decor" class="bg-decor">
+        <div class="hero-content">
+            <h1>Hello, I'm Sadra</h1>
+            <p class="typing">Frontend Developer & Designer</p>
+            <a href="#portfolio" class="btn">See My Work</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section reveal">
+        <h2>About Me</h2>
+        <p>I'm a frontend developer focused on creating beautiful and functional websites with modern technologies. I
+            love clean UI/UX design and interactive experiences.</p>
+        <img src="assets/icone/p2.png" alt="Decor" class="bg-decor2">
+
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section reveal">
+        <h2>Skills</h2>
+        <div class="grid">
+            <div class="skill reveal">
+                <div class="skill-inner">
+                    <span><a href="https://www.w3schools.com/html/">HTML</a></span>
+                    <div class="bar">
+                        <div style="width:90%"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill reveal">
+                <div class="skill-inner">
+                    <span><a href="https://www.w3schools.com/css/default.asp">CSS</a></span>
+                    <div class="bar">
+                        <div style="width:85%"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill reveal">
+                <div class="skill-inner">
+                    <span><a href="https://www.w3schools.com/js/default.asp">JavaScript</a></span>
+                    <div class="bar">
+                        <div style="width:80%"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill reveal">
+                <div class="skill-inner">
+                    <span><a href="https://react.dev/">React</a></span>
+                    <div class="bar">
+                        <div style="width:75%"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill reveal">
+                <div class="skill-inner">
+                    <span><a href="https://react.dev/">Network+</a></span>
+                    <div class="bar">
+                        <div style="width:50%"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill reveal">
+                <div class="skill-inner">
+                    <span><a href="https://react.dev/">Photoshop</a></span>
+                    <div class="bar">
+                        <div style="width:50%"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill reveal">
+                <div class="skill-inner">
+                    <span><a href="https://react.dev/">Pythone</a></span>
+                    <div class="bar">
+                        <div style="width:70%"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill reveal">
+                <div class="skill-inner">
+                    <span><a href="https://react.dev/">Machin Learning</a></span>
+                    <div class="bar">
+                        <div style="width:75%"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section reveal">
+        <h2>Portfolio</h2>
+        <div class="grid portfolio-grid">
+            <div class="card reveal">
+                <div class="card-inner">
+                    <div class="card-content">
+                        <h3>Project 1</h3>
+                        <p>Web App Development with modern technologies.</p>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card reveal">
+                <div class="card-inner">
+                    <div class="card-content">
+                        <h3>Project 2</h3>
+                        <p>UI/UX Design for mobile and web platforms.</p>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card reveal">
+                <div class="card-inner">
+                    <div class="card-content">
+                        <h3>Project 3</h3>
+                        <p>Creative Coding experiments and interactive designs.</p>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <img src="assets/icone/p3.png" alt="Decor" class="bg-decor">
+            <div class="card reveal">
+                <div class="card-inner">
+                    <div class="card-content">
+                        <h3>Project 4</h3>
+                        <p>Frontend React projects with responsive design.</p>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="section reveal">
+        <h2>Blog</h2>
+        <div class="grid">
+            <div class="card reveal">
+                <div class="card-inner">
+                    <div class="card-content">
+                        <h3>Post 1</h3>
+                        <p>Tips for Web Development</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card reveal">
+                <div class="card-inner">
+                    <div class="card-content">
+                        <h3>Post 2</h3>
+                        <p>Design Inspiration</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card reveal">
+                <div class="card-inner">
+                    <div class="card-content">
+                        <h3>Post 3</h3>
+                        <p>JavaScript Tricks</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="section reveal">
+        <h2>Contact Me</h2>
+        <div class="contact-card">
+            <!-- لوگو -->
+            <img src="/assets/imgl-one.png" alt="Sadra Logo" class="contact-logo">
+
+            <!-- شبکه‌های اجتماعی -->
+            <div class="social-links">
+                <a href="https://t.me/Sadra_dry" target="_blank" aria-label="Telegram" class="contact-icon">
+                    <!-- SVG تلگرام بدون بک‌گراند -->
+                    <svg width="24px" height="24px" viewBox="0 0 256 256" version="1.1"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        preserveAspectRatio="xMidYMid">
+                        <g>
+                            <path
+                                d="M128,0 C57.307,0 0,57.307 0,128 L0,128 C0,198.693 57.307,256 128,256 L128,256 C198.693,256 256,198.693 256,128 L256,128 C256,57.307 198.693,0 128,0 L128,0 Z"
+                                fill="#40B3E0"></path>
+                            <path
+                                d="M190.2826,73.6308 L167.4206,188.8978 C167.4206,188.8978 164.2236,196.8918 155.4306,193.0548 L102.6726,152.6068 L83.4886,143.3348 L51.1946,132.4628 C51.1946,132.4628 46.2386,130.7048 45.7586,126.8678 C45.2796,123.0308 51.3546,120.9528 51.3546,120.9528 L179.7306,70.5928 C179.7306,70.5928 190.2826,65.9568 190.2826,73.6308"
+                                fill="#FFFFFF"></path>
+                            <path
+                                d="M98.6178,187.6035 C98.6178,187.6035 97.0778,187.4595 95.1588,181.3835 C93.2408,175.3085 83.4888,143.3345 83.4888,143.3345 L161.0258,94.0945 C161.0258,94.0945 165.5028,91.3765 165.3428,94.0945 C165.3428,94.0945 166.1418,94.5735 163.7438,96.8115 C161.3458,99.0505 102.8328,151.6475 102.8328,151.6475"
+                                fill="#D2E5F1"></path>
+                            <path
+                                d="M122.9015,168.1154 L102.0335,187.1414 C102.0335,187.1414 100.4025,188.3794 98.6175,187.6034 L102.6135,152.2624"
+                                fill="#B5CFE4"></path>
+                        </g>
+                    </svg>
+                </a>
+                <a href="https://github.com/sadradaryabaz" target="_blank" aria-label="GitHub">
+                    <!-- SVG گیت‌هاب -->
+                    <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                        <path
+                            d="M12 0C5.373 0 0 5.373 0 12c0 5.303 3.438 9.8 8.205 11.387.6.113.82-.263.82-.583v-2.165c-3.338.725-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.09-.745.082-.729.082-.729 1.205.084 1.84 1.237 1.84 1.237 1.07 1.834 2.807 1.304 3.492.997.108-.775.418-1.304.76-1.604-2.665-.304-5.467-1.332-5.467-5.931 0-1.31.467-2.381 1.235-3.221-.124-.303-.535-1.527.117-3.176 0 0 1.008-.322 3.301 1.23a11.513 11.513 0 013.003-.403c1.018.004 2.044.137 3.003.403 2.291-1.552 3.297-1.23 3.297-1.23.653 1.649.242 2.873.118 3.176.77.84 1.233 1.911 1.233 3.221 0 4.609-2.807 5.624-5.479 5.921.429.37.812 1.102.812 2.222v3.293c0 .321.218.698.825.58C20.565 21.796 24 17.3 24 12c0-6.627-5.373-12-12-12z" />
+                    </svg>
+                </a>
+                <a href="https://instagram.com/dry_sadra" target="_blank" aria-label="Instagram" class="contact-icon">
+                    <svg width="24" height="24" fill="currentColor" viewBox="0 0 551.034 551.034"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M386.878,0H164.156C73.64,0,0,73.64,0,164.156v222.722c0,90.516,73.64,164.156,164.156,164.156h222.722
+            c90.516,0,164.156-73.64,164.156-164.156V164.156C551.033,73.64,477.393,0,386.878,0z M495.6,386.878
+            c0,60.045-48.677,108.722-108.722,108.722H164.156c-60.045,0-108.722-48.677-108.722-108.722V164.156
+            c0-60.046,48.677-108.722,108.722-108.722h222.722c60.045,0,108.722,48.676,108.722,108.722L495.6,386.878L495.6,386.878z" />
+                        <path
+                            d="M275.517,133C196.933,133,133,196.933,133,275.516s63.933,142.517,142.517,142.517
+            S418.034,354.1,418.034,275.516S354.101,133,275.517,133z M275.517,362.6c-48.095,0-87.083-38.988-87.083-87.083
+            s38.989-87.083,87.083-87.083c48.095,0,87.083,38.988,87.083,87.083C362.6,323.611,323.611,362.6,275.517,362.6z" />
+                        <circle cx="418.306" cy="134.072" r="34.149" />
+                    </svg>
+                </a>
+            </div>
+            <!-- فرم تماس -->
+            <form action="send.php" method="POST">
+                <img src="assets/icone/p4.png" alt="Decor" class="bg-decor2">
+                <input name="name" placeholder="your Name" required>
+                <input name="email" type="email" placeholder="your Email" required>
+                <textarea name="message" placeholder="text Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+                <img src="assets/icone/p5.png" alt="Decor" class="bg-decor">
+            </form>
+
+            <!-- رزومه -->
+            <a href="assets/pdf/MyResume.pdf" download class="btn resume-btn">Download Resume</a>
+        </div>
+    </section>
+
+
+
+
+    <footer>&copy; 2025 Sadra. All Rights Reserved.</footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
